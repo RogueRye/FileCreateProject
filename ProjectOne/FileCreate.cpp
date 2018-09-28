@@ -8,7 +8,7 @@ int main() {
 
 
 	HANDLE hFile;
-	char DataBuffer[] = "Hello world!";
+	char DataBuffer[] = "My example text testing the Win32 API WriteFile()";
 	char filePath[] = "myFile.txt";
 	DWORD dwBytesToWrite = (DWORD)strlen(DataBuffer);
 	DWORD dwBytesWritten = 0;
